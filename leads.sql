@@ -1,2 +1,2 @@
 CREATE TABLE leads
-(name varchar(255), address varchar(255), email varchar(255), phone varchar(255), type ENUM("Stone Supplier", "Hotel", "Fabricator", "Existing Client", "Designer"), noSent int, lastSent DATE, hasResponded boolean, PRIMARY KEY (name));
+(name varchar(255), address varchar(255), email varchar(255), phoneNumber varchar(255), type ENUM("Stone Supplier", "Hotel", "Fabricator", "Existing Client", "Designer"), noSent int, lastSent DATE, hasResponded boolean, PRIMARY KEY (name));
